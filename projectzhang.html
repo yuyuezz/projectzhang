@@ -4,7 +4,38 @@
 <meta charset="utf-8">
 <title>BPI HOME</title>
 <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+<title>jQuery UI Tabs - Default functionality</title>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<link rel="stylesheet" href="http:/resources/demos/style.css">
+<script>
+
+  $(function() {
+
+    $( "#tabs" ).tabs();
+
+  });
+
+  </script>
+
+
+
 <style type="text/css">
+#tabs-3 ,#tabs-4,#tabs-5,#tabs-6{
+height:230px;
+z-index:3;
+position:relative;
+
+background-color:rgb(0,153,255);	
+	
+	
+}
+
+.ss{
+	left:12%;
+	position:relative;
+}
 h1{
 	color:rgb(0,0,0);
 }
@@ -102,16 +133,20 @@ height:280px;
 }
 .color2{
 	background-color:rgb(255,255,255);
+	z-index:2;
 	opacity:0.7;
+	position:relative;
 
 height:380px;
 }
-
+.row{
+	z-index:2;
+}
 .fix{
 	position:fixed;
 	top:70px;
 	right:200px;
-	z-index:2;
+	z-index:5;
 	width:100px;
 	height:100px;
 	background-color:rgb(204,204,204);
@@ -161,8 +196,8 @@ color:rgb(255,255,255);
 <div class="fix">
 <a class="a" href="">Live Chat|Order</a>
 <p>By phone</p>
-<p>(888)</p>
-<p>656-6326</p>
+<p>(888)656-6326</p>
+
 </div>
 <div class="container">
 <div class="topbar">
@@ -177,6 +212,65 @@ color:rgb(255,255,255);
 
 </div>
 <div class="test1">
+
+
+<div id="tabs">
+
+  <ul>
+
+    <li class="ss"><a href="#tabs-1">About Us</a></li>
+
+    <li class="ss"><a href="#tabs-2">MIssion</a></li>
+
+    <li class="ss"><a href="#tabs-3">Strategy</a></li>
+    
+    <li class="ss"><a href="#tabs-4">Market</a></li>
+
+    <li class="ss"><a href="#tabs-5">FAQ</a></li>
+
+    <li class="ss"><a href="#tabs-6">More</a></li>
+
+  </ul>
+
+  <div id="tabs-1">
+ 
+
+  </div>
+
+  <div id="tabs-2">
+
+  </div>
+
+  <div id="tabs-3">
+<p>hzozooozoziaaaaaaaaaaaaaaaaaaa</p>
+
+  </div>
+  
+  <div id="tabs-4">
+  <p>hihihihhiaaaaaaaaaaaaaaaaaaaa</p>
+
+  </div>
+
+  <div id="tabs-5">
+<p>lololololololoaaaaaaaaaaaaaaaaaaaaa</p>
+  </div>
+
+  <div id="tabs-6">
+<p>hzozooozoziaaaaaaaaaaaaaaaaaaa</p>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
 
 </div>
 <div class="test2">
